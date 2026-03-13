@@ -9,4 +9,6 @@
 int Lab2_1();
 int Lab2_2();
 int Lab3();
+int Lab1();
 void Info();
+void InfoLab1();

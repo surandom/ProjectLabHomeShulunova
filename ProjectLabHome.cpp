@@ -9,15 +9,17 @@ int main() {
 	do {
 		system("cls");
 		cout << "Меню программы\n";
-		cout << "1 - Лабораторная работа 2.1\n";
-		cout << "2 - Лабораторная работа 2.2\n";
-		cout << "3 - Лабораторная работа 3\n";
+		cout << "1 - Лабораторная работа 2.1, I семестр\n";
+		cout << "2 - Лабораторная работа 2.2, I семестр\n";
+		cout << "3 - Лабораторная работа 3, I семестр\n";
+		cout << "4 - Лабораторная работа 1, II семестр\n";
 		cout << "Esc - Для выхода из программы\n\n";
 		ch = _getch();
 		switch (ch) {
 		case'1': Lab2_1(); break;
 		case'2': Lab2_2(); break;
 		case'3': Lab3(); break;
+		case'4': Lab1(); break;
 		case 27: break;
 		}
 		system("pause");
@@ -149,4 +151,6 @@ int Lab3() {
 	cout << "\n\nKp = " << Kp << endl;
 
 	return 0;
+}
+
 }
